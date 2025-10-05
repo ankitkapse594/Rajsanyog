@@ -1,25 +1,27 @@
 import { Card } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
-import { Phone, Mail, Linkedin } from "lucide-react";
-import ankitImage from "@assets/generated_images/Professional_founder_portrait_-_Ankit_4035cbf5.png";
-import ganeshImage from "@assets/generated_images/Professional_founder_portrait_-_Ganesh_7ea30b04.png";
+import { Phone, Linkedin } from "lucide-react";
+import ganeshImage from "@assets/WhatsApp Image 2025-10-05 at 19.39.00_1759673428446.jpeg";
+import ankitImage from "@assets/WhatsApp Image 2025-10-05 at 19.33.25_1759673435055.jpeg";
 
 export default function Founders() {
   const founders = [
     {
-      name: "Ankit Kapse",
-      phone: "7499039470",
-      image: ankitImage,
-    },
-    {
       name: "Ganesh Chondekar",
       phone: "9423245297",
       image: ganeshImage,
+      linkedin: "https://www.linkedin.com/in/ganesh-chondekar-46a09859/",
+    },
+    {
+      name: "Ankit Kapse",
+      phone: "7499039470",
+      image: ankitImage,
+      linkedin: "https://www.linkedin.com/in/ankit-kapse-444a382a0?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
     },
   ];
 
   return (
-    <section id="founders" className="py-20 bg-background">
+    <section id="founders" className="py-20 bg-card">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
           <h2 className="text-4xl font-semibold mb-4" data-testid="text-founders-heading">
@@ -35,7 +37,7 @@ export default function Founders() {
           {founders.map((founder, index) => (
             <Card
               key={index}
-              className="p-8 hover-elevate transition-all duration-300"
+              className="p-8 hover-elevate transition-all duration-300 border-border/50"
               data-testid={`card-founder-${index}`}
             >
               <div className="flex flex-col items-center text-center space-y-6">
@@ -68,7 +70,7 @@ export default function Founders() {
                   <Button
                     variant="outline"
                     className="w-full justify-start"
-                    onClick={() => console.log("LinkedIn clicked")}
+                    onClick={() => window.open(founder.linkedin, "_blank")}
                     data-testid={`button-founder-linkedin-${index}`}
                   >
                     <Linkedin className="h-4 w-4 mr-2" />

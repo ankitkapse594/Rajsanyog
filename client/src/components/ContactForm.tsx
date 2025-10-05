@@ -78,7 +78,7 @@ export default function ContactForm() {
   ];
 
   return (
-    <section id="contact" className="py-20 bg-background">
+    <section id="contact" className="py-20 bg-card">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
           <h2 className="text-4xl font-semibold mb-4" data-testid="text-contact-heading">
@@ -100,7 +100,7 @@ export default function ContactForm() {
                 {contactInfo.map((info, index) => (
                   <Card
                     key={index}
-                    className="p-6 hover-elevate transition-all duration-300"
+                    className="p-6 hover-elevate transition-all duration-300 border-border/50"
                     data-testid={`card-contact-info-${index}`}
                   >
                     <div className="flex items-start gap-4">
@@ -132,7 +132,7 @@ export default function ContactForm() {
             </div>
           </div>
 
-          <Card className="p-8">
+          <Card className="p-8 border-border/50">
             <h3 className="text-2xl font-semibold mb-6" data-testid="text-form-heading">
               Send us a Message
             </h3>

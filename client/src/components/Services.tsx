@@ -30,7 +30,7 @@ export default function Services() {
   ];
 
   return (
-    <section id="services" className="py-20 bg-accent/20">
+    <section id="services" className="py-20 bg-background">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
           <h2 className="text-4xl font-semibold mb-4" data-testid="text-services-heading">
@@ -46,7 +46,7 @@ export default function Services() {
           {services.map((service, index) => (
             <Card
               key={index}
-              className="p-8 hover-elevate transition-all duration-300"
+              className="p-8 hover-elevate transition-all duration-300 border-border/50"
               data-testid={`card-service-${index}`}
             >
               <div className="flex flex-col space-y-4">

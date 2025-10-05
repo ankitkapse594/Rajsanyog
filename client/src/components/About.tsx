@@ -24,7 +24,7 @@ export default function About() {
   ];
 
   return (
-    <section id="about" className="py-20 bg-background">
+    <section id="about" className="py-20 bg-card">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
           <h2 className="text-4xl font-semibold mb-4" data-testid="text-about-heading">
@@ -41,7 +41,7 @@ export default function About() {
           {values.map((value, index) => (
             <Card
               key={index}
-              className="p-8 hover-elevate transition-all duration-300"
+              className="p-8 hover-elevate transition-all duration-300 border-border/50"
               data-testid={`card-value-${index}`}
             >
               <div className="flex flex-col items-center text-center space-y-4">
