@@ -14,10 +14,10 @@ export default function Footer() {
             >
               राजsanyog
             </h3>
-            <p className="text-primary-foreground/80 mb-4" data-testid="text-footer-tagline">
+            <p className="text-muted-foreground mb-4" data-testid="text-footer-tagline">
               Be Better. Achieve Greater.
             </p>
-            <p className="text-sm text-primary-foreground/70" data-testid="text-footer-description">
+            <p className="text-sm text-muted-foreground" data-testid="text-footer-description">
               A government-registered digital startup delivering innovative solutions for modern
               businesses.
             </p>
@@ -27,7 +27,7 @@ export default function Footer() {
             <h4 className="text-lg font-semibold mb-4" data-testid="text-footer-services-heading">
               Our Services
             </h4>
-            <ul className="space-y-2 text-sm text-primary-foreground/80">
+            <ul className="space-y-2 text-sm text-muted-foreground">
               <li data-testid="text-footer-service-0">Web Portal Development</li>
               <li data-testid="text-footer-service-1">Digital Consulting</li>
               <li data-testid="text-footer-service-2">Startup Tech Solutions</li>
@@ -39,12 +39,12 @@ export default function Footer() {
             <h4 className="text-lg font-semibold mb-4" data-testid="text-footer-contact-heading">
               Contact Us
             </h4>
-            <div className="space-y-3 text-sm text-primary-foreground/80">
+            <div className="space-y-3 text-sm text-muted-foreground">
               <div className="flex items-start gap-2">
                 <Mail className="h-4 w-4 mt-0.5 flex-shrink-0" />
                 <a
                   href="mailto:rajsanyog40@gmail.com"
-                  className="hover:text-primary-foreground transition-colors"
+                  className="hover:text-primary transition-colors"
                   data-testid="link-footer-email"
                 >
                   rajsanyog40@gmail.com
@@ -66,7 +66,7 @@ export default function Footer() {
               <Button
                 size="icon"
                 variant="outline"
-                className="bg-primary-foreground/10 border-primary-foreground/20 hover:bg-primary-foreground/20"
+                className="border-primary/50 hover:bg-primary/20"
                 onClick={() => console.log("LinkedIn clicked")}
                 data-testid="button-footer-linkedin"
               >
@@ -75,7 +75,7 @@ export default function Footer() {
               <Button
                 size="icon"
                 variant="outline"
-                className="bg-primary-foreground/10 border-primary-foreground/20 hover:bg-primary-foreground/20"
+                className="border-primary/50 hover:bg-primary/20"
                 onClick={() => console.log("Instagram clicked")}
                 data-testid="button-footer-instagram"
               >
@@ -85,7 +85,7 @@ export default function Footer() {
           </div>
         </div>
 
-        <div className="pt-8 border-t border-primary-foreground/20 text-center text-sm text-primary-foreground/70">
+        <div className="pt-8 border-t border-primary/30 text-center text-sm text-muted-foreground">
           <p data-testid="text-footer-copyright">
             © 2025 राजsanyog. All rights reserved. | UDYAM-MH-20-0234334
           </p>
