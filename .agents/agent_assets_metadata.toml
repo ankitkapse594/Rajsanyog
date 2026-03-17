@@ -1,0 +1,8 @@
+uploads = []
+generated = []
+
+[[outputs]]
+id = "6cqQLrDHPeJsiyRqgghqW"
+uri = "file://rajsanyog-website.tar.gz"
+type = "unspecified"
+title = "राजsanyog Website - Complete Project Files"
