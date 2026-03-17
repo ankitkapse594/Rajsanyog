@@ -1,5 +1,5 @@
 import { Card } from "@/components/ui/card";
-import { Globe, TrendingUp, Rocket, Video, Megaphone } from "lucide-react";
+import { Globe, TrendingUp, Rocket, Video, Megaphone, FlaskConical } from "lucide-react";
 
 export default function Services() {
   const services = [
@@ -32,6 +32,12 @@ export default function Services() {
       title: "Political Campaign & Social Media Support",
       description:
         "Empowering political parties with data-driven digital campaigns. We provide social media strategy, targeted outreach, content creation, voter engagement tools, and end-to-end technical support to amplify your political message and maximize campaign impact.",
+    },
+    {
+      icon: FlaskConical,
+      title: "Research & Small Institution Support",
+      description:
+        "Dedicated research assistance and digital support for small institutions, NGOs, and educational organizations. We help with data collection, analysis, documentation, digital infrastructure, and technology adoption to strengthen your mission and expand your reach.",
     },
   ];
 

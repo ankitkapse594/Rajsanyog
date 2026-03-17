@@ -33,6 +33,7 @@ export default function Footer() {
               <li data-testid="text-footer-service-2">Startup Tech Solutions</li>
               <li data-testid="text-footer-service-3">Content & Media Management</li>
               <li data-testid="text-footer-service-4">Political Campaign Support</li>
+              <li data-testid="text-footer-service-5">Research & Institution Support</li>
             </ul>
           </div>
 
