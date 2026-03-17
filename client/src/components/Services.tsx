@@ -1,5 +1,5 @@
 import { Card } from "@/components/ui/card";
-import { Globe, TrendingUp, Rocket, Video } from "lucide-react";
+import { Globe, TrendingUp, Rocket, Video, Megaphone } from "lucide-react";
 
 export default function Services() {
   const services = [
@@ -27,6 +27,12 @@ export default function Services() {
       description:
         "Professional content creation and media management services. We help you tell your story and engage your audience effectively.",
     },
+    {
+      icon: Megaphone,
+      title: "Political Campaign & Social Media Support",
+      description:
+        "Empowering political parties with data-driven digital campaigns. We provide social media strategy, targeted outreach, content creation, voter engagement tools, and end-to-end technical support to amplify your political message and maximize campaign impact.",
+    },
   ];
 
   return (
@@ -42,7 +48,7 @@ export default function Services() {
           </p>
         </div>
 
-        <div className="grid md:grid-cols-2 gap-8">
+        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
           {services.map((service, index) => (
             <Card
               key={index}

@@ -32,6 +32,7 @@ export default function Footer() {
               <li data-testid="text-footer-service-1">Digital Consulting</li>
               <li data-testid="text-footer-service-2">Startup Tech Solutions</li>
               <li data-testid="text-footer-service-3">Content & Media Management</li>
+              <li data-testid="text-footer-service-4">Political Campaign Support</li>
             </ul>
           </div>
 
