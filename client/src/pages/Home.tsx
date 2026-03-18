@@ -6,8 +6,11 @@ import Founders from "@/components/Founders";
 import Certification from "@/components/Certification";
 import ContactForm from "@/components/ContactForm";
 import Footer from "@/components/Footer";
+import { useScrollReveal } from "@/hooks/use-scroll-reveal";
 
 export default function Home() {
+  useScrollReveal();
+
   return (
     <div className="min-h-screen">
       <Navigation />

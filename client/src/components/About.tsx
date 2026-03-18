@@ -26,7 +26,7 @@ export default function About() {
   return (
     <section id="about" className="py-20 bg-card">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="text-center mb-16">
+        <div className="text-center mb-16 reveal">
           <h2 className="text-4xl font-semibold mb-4" data-testid="text-about-heading">
             About Us
           </h2>
@@ -41,11 +41,11 @@ export default function About() {
           {values.map((value, index) => (
             <Card
               key={index}
-              className="p-8 hover-elevate transition-all duration-300 border-border/50"
+              className={`p-8 hover-elevate glow-card transition-all duration-300 border-border/50 reveal delay-${(index + 1) * 200}`}
               data-testid={`card-value-${index}`}
             >
               <div className="flex flex-col items-center text-center space-y-4">
-                <div className="p-4 bg-primary/10 rounded-lg">
+                <div className="p-4 bg-primary/10 rounded-lg transition-all duration-300 group-hover:bg-primary/20">
                   <value.icon className="h-8 w-8 text-primary" />
                 </div>
                 <h3 className="text-xl font-semibold" data-testid={`text-value-title-${index}`}>

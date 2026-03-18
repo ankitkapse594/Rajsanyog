@@ -23,7 +23,7 @@ export default function Founders() {
   return (
     <section id="founders" className="py-20 bg-card">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="text-center mb-16">
+        <div className="text-center mb-16 reveal">
           <h2 className="text-4xl font-semibold mb-4" data-testid="text-founders-heading">
             Meet Our Founders
           </h2>
@@ -37,15 +37,18 @@ export default function Founders() {
           {founders.map((founder, index) => (
             <Card
               key={index}
-              className="p-8 hover-elevate transition-all duration-300 border-border/50"
+              className={`p-8 hover-elevate glow-card transition-all duration-300 border-border/50 reveal delay-${(index + 1) * 200}`}
               data-testid={`card-founder-${index}`}
             >
               <div className="flex flex-col items-center text-center space-y-6">
-                <div className="w-48 h-48 rounded-full overflow-hidden border-4 border-primary/20">
+                <div
+                  className="w-48 h-48 rounded-full overflow-hidden animate-glow-pulse"
+                  style={{ border: "3px solid rgba(0,233,255,0.5)" }}
+                >
                   <img
                     src={founder.image}
                     alt={founder.name}
-                    className="w-full h-full object-cover"
+                    className="w-full h-full object-cover transition-transform duration-500 hover:scale-110"
                     data-testid={`img-founder-${index}`}
                   />
                 </div>

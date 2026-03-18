@@ -44,7 +44,7 @@ export default function Services() {
   return (
     <section id="services" className="py-20 bg-background">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="text-center mb-16">
+        <div className="text-center mb-16 reveal">
           <h2 className="text-4xl font-semibold mb-4" data-testid="text-services-heading">
             Our Services
           </h2>
@@ -58,12 +58,12 @@ export default function Services() {
           {services.map((service, index) => (
             <Card
               key={index}
-              className="p-8 hover-elevate transition-all duration-300 border-border/50"
+              className={`p-8 hover-elevate glow-card transition-all duration-300 border-border/50 reveal delay-${Math.min((index + 1) * 100, 600)}`}
               data-testid={`card-service-${index}`}
             >
               <div className="flex flex-col space-y-4">
                 <div className="flex items-start gap-4">
-                  <div className="p-3 bg-primary/10 rounded-lg flex-shrink-0">
+                  <div className="p-3 bg-primary/10 rounded-lg flex-shrink-0 transition-all duration-300">
                     <service.icon className="h-8 w-8 text-primary" />
                   </div>
                   <div>
