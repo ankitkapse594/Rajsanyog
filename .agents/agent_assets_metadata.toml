@@ -6,3 +6,9 @@ id = "6cqQLrDHPeJsiyRqgghqW"
 uri = "file://rajsanyog-website.tar.gz"
 type = "unspecified"
 title = "राजsanyog Website - Complete Project Files"
+
+[[outputs]]
+id = "bIcIgTntV1fTtSWeVVm2y"
+uri = "file://README.md"
+type = "text"
+title = "राजsanyog — README"
