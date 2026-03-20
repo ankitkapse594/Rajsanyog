@@ -89,7 +89,7 @@ Output is generated in `dist/public/`
 This project is pre-configured for Netlify deployment.
 
 1. Push the repository to GitHub
-2. Connect the repo on [netlify.com](https://netlify.com)
+2. Connect the repo on [rajsanyog.in](https://rajsanyog.in)
 3. Netlify auto-detects `netlify.toml` — no manual settings required
 4. Click **Deploy**
 
