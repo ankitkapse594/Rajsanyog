@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 import { Menu, X } from "lucide-react";
 import { Button } from "@/components/ui/button";
+import logoSmall from "@assets/image_1778260223752.png";
 
 export default function Navigation() {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -43,12 +44,21 @@ export default function Navigation() {
         <div className="flex items-center justify-between h-20">
           <button
             onClick={() => scrollToSection("home")}
-            className="text-2xl font-bold hover-elevate active-elevate-2 px-2 py-1 rounded-md transition-colors"
-            style={{ fontFamily: "'Noto Sans Devanagari', sans-serif" }}
+            className="flex items-center gap-3 hover-elevate active-elevate-2 px-2 py-1 rounded-md transition-colors"
             data-testid="link-logo"
           >
-            <span className="text-primary">राज</span>
-            <span className="text-foreground">sanyog</span>
+            <img
+              src={logoSmall}
+              alt="राजsanyog logo"
+              className="h-10 w-10 rounded-full object-cover border border-primary/30"
+            />
+            <span
+              className="text-2xl font-bold"
+              style={{ fontFamily: "'Noto Sans Devanagari', sans-serif" }}
+            >
+              <span className="text-primary">राज</span>
+              <span className="text-foreground">sanyog</span>
+            </span>
           </button>
 
           <div className="hidden md:flex items-center gap-1">

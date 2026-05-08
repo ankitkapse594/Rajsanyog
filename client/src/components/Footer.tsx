@@ -1,5 +1,6 @@
 import { Mail, Phone, MapPin, Linkedin, Instagram } from "lucide-react";
 import { Button } from "@/components/ui/button";
+import logoFull from "@assets/Rajsanyog_Logo_1778260339315.jpeg";
 
 export default function Footer() {
   return (
@@ -7,13 +8,12 @@ export default function Footer() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <div className="grid md:grid-cols-3 gap-12 mb-8">
           <div>
-            <h3
-              className="text-2xl font-bold mb-4"
-              style={{ fontFamily: "'Noto Sans Devanagari', sans-serif" }}
-              data-testid="text-footer-logo"
-            >
-              राजsanyog
-            </h3>
+            <img
+              src={logoFull}
+              alt="राजsanyog logo"
+              className="w-40 h-40 object-contain rounded-lg mb-4"
+              data-testid="img-footer-logo"
+            />
             <p className="text-muted-foreground mb-4" data-testid="text-footer-tagline">
               Be Better. Achieve Greater.
             </p>
