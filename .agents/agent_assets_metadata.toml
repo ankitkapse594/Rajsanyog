@@ -12,3 +12,9 @@ id = "bIcIgTntV1fTtSWeVVm2y"
 uri = "file://README.md"
 type = "text"
 title = "राजsanyog — README"
+
+[[outputs]]
+id = "VSQgAvXYS3kJ5BTIgfy2p"
+uri = "file://rajsanyog-netlify-deploy.tar.gz"
+type = "unspecified"
+title = "राजsanyog — Ready-to-Deploy Build"
