@@ -89,7 +89,7 @@ export default function Footer() {
 
         <div className="pt-8 border-t border-primary/30 text-center text-sm text-muted-foreground">
           <p data-testid="text-footer-copyright">
-            © 2025 राजsanyog. All rights reserved. | UDYAM-MH-20-0234334
+            © 2025 Rajsanyog. All rights reserved. | UDYAM-MH-20-0234334
           </p>
         </div>
       </div>

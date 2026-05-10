@@ -49,15 +49,11 @@ export default function Navigation() {
           >
             <img
               src={logoSmall}
-              alt="राजsanyog logo"
+              alt="Rajsanyog logo"
               className="h-10 w-10 rounded-full object-cover border border-primary/30"
             />
-            <span
-              className="text-2xl font-bold"
-              style={{ fontFamily: "'Noto Sans Devanagari', sans-serif" }}
-            >
-              <span className="text-primary">राज</span>
-              <span className="text-foreground">sanyog</span>
+            <span className="text-2xl font-bold text-white">
+              Rajsanyog
             </span>
           </button>
 

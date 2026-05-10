@@ -1,6 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { ArrowRight } from "lucide-react";
 import heroImage from "@assets/generated_images/Modern_office_workspace_hero_image_020741df.png";
+import logoSmall from "@assets/image_1778260223752.png";
 
 export default function Hero() {
   const scrollToSection = (id: string) => {
@@ -43,12 +44,15 @@ export default function Hero() {
           <div className="space-y-8">
             <div className="space-y-4">
               <h1
-                className="text-5xl sm:text-6xl font-bold leading-tight animate-fade-in-left"
-                style={{ fontFamily: "'Noto Sans Devanagari', 'Poppins', sans-serif" }}
+                className="flex items-center gap-4 text-5xl sm:text-6xl font-bold leading-tight animate-fade-in-left"
                 data-testid="text-company-name"
               >
-                <span className="text-primary animate-text-glow">राज</span>
-                <span className="text-foreground">sanyog</span>
+                <img
+                  src={logoSmall}
+                  alt="Rajsanyog logo"
+                  className="h-16 w-16 rounded-full object-cover border-2 border-primary/50 animate-glow-pulse flex-shrink-0"
+                />
+                <span className="text-white">Rajsanyog</span>
               </h1>
               <p
                 className="text-2xl sm:text-3xl font-semibold text-muted-foreground animate-fade-in-left delay-200"
