@@ -1,7 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { ArrowRight } from "lucide-react";
 import heroImage from "@assets/generated_images/Modern_office_workspace_hero_image_020741df.png";
-import logoSmall from "@assets/image_1778260223752.png";
+import logoSmall from "@assets/Rajsanyog_Logo_1778388404115.jpeg";
 
 export default function Hero() {
   const scrollToSection = (id: string) => {

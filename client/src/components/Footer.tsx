@@ -1,6 +1,6 @@
 import { Mail, Phone, MapPin, Linkedin, Instagram } from "lucide-react";
 import { Button } from "@/components/ui/button";
-import logoFull from "@assets/Rajsanyog_Logo_1778260339315.jpeg";
+import logoFull from "@assets/Rajsanyog_Logo_1778388404115.jpeg";
 
 export default function Footer() {
   return (
