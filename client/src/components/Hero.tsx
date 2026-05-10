@@ -1,7 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { ArrowRight } from "lucide-react";
 import heroImage from "@assets/generated_images/Modern_office_workspace_hero_image_020741df.png";
-import logoSmall from "@assets/Rajsanyog_Logo_1778388404115.jpeg";
+const logo = "/rajsanyog-logo2.jpeg";
 
 export default function Hero() {
   const scrollToSection = (id: string) => {
@@ -48,7 +48,7 @@ export default function Hero() {
                 data-testid="text-company-name"
               >
                 <img
-                  src={logoSmall}
+                  src={logo}
                   alt="Rajsanyog logo"
                   className="h-16 w-16 rounded-full object-cover border-2 border-primary/50 animate-glow-pulse flex-shrink-0"
                 />

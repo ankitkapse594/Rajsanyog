@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import { Menu, X } from "lucide-react";
 import { Button } from "@/components/ui/button";
-import logoSmall from "@assets/Rajsanyog_Logo_1778388404115.jpeg";
+const logo = "/rajsanyog-logo2.jpeg";
 
 export default function Navigation() {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -48,13 +48,11 @@ export default function Navigation() {
             data-testid="link-logo"
           >
             <img
-              src={logoSmall}
+              src={logo}
               alt="Rajsanyog logo"
               className="h-10 w-10 rounded-full object-cover border border-primary/30"
             />
-            <span className="text-2xl font-bold text-white">
-              Rajsanyog
-            </span>
+            <span className="text-2xl font-bold text-white">Rajsanyog</span>
           </button>
 
           <div className="hidden md:flex items-center gap-1">
