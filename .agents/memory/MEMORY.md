@@ -1,0 +1,2 @@
+- [Chatbot without external APIs](free-tier-chatbot-integrations.md) — multilingual chat widgets on free tier should use pre-written Q&A + browser-native voice/maps/contact links, not paid AI/API integrations.
+- [Admin dashboard password protection](admin-dashboard-auth-pattern.md) — protect internal dashboards with express-session + a user-provided ADMIN_PASSWORD secret requested via requestEnvVar, not hardcoded.
