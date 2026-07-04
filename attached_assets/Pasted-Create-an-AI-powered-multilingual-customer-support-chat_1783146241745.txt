@@ -1,0 +1,222 @@
+Create an AI-powered multilingual customer support chatbot for my startup website "राजsanyog". The chatbot should appear as a floating modern AI assistant icon in the bottom-right corner of every page and be available 24/7. The design should be premium, modern, and mobile-friendly with smooth animations.
+
+Company Information
+Company Name: राजsanyog
+Tagline: Be Better. Achieve Greater.
+Email: rajsanyog40@gmail.com
+Founders:
+Ankit Kapse (7499039470)
+Ganesh Chondekar (9423245297)
+Welcome Screen
+
+Display:
+
+"👋 Welcome to राजsanyog.
+
+We're happy to assist you.
+
+Please select your preferred language."
+
+Show three large buttons:
+
+🇬🇧 English
+
+🇮🇳 हिंदी
+
+🇮🇳 मराठी
+
+The entire conversation should continue in the selected language.
+
+Step 1 – Collect Customer Information
+
+Ask the user:
+
+Full Name
+Mobile Number (OTP validation optional)
+Email Address
+Company/Organization Name (Optional)
+City & State
+
+Save all responses securely.
+
+Step 2 – Ask Purpose
+
+Display interactive cards:
+
+🌐 Website Development
+📱 Mobile App Development
+🤖 AI Automation
+🎨 Graphic Design
+📈 Digital Marketing
+💼 Business Consultation
+🖥 Software Development
+☁ Cloud Solutions
+📊 Data Analytics
+🛒 E-Commerce Solutions
+🔧 Technical Support
+📚 Training & Workshops
+📞 General Inquiry
+✍ Other (Custom Message)
+
+If "Other" is selected, allow users to type their own issue.
+
+Step 3 – Understand Requirements
+
+The AI should ask intelligent follow-up questions based on the selected service.
+
+Example:
+
+Website Development:
+
+Personal website?
+Business website?
+E-commerce?
+Portfolio?
+Government Project?
+Budget?
+Deadline?
+
+Mobile App:
+
+Android?
+
+iOS?
+
+Both?
+
+Budget?
+
+Timeline?
+
+AI Services:
+
+What process would you like to automate?
+
+etc.
+
+Step 4 – Schedule a Meeting
+
+Ask:
+
+"Would you like to schedule a meeting with our team?"
+
+Buttons:
+
+Yes
+
+Not Now
+
+If Yes:
+
+Show calendar picker.
+
+Show available dates.
+
+Show available time slots.
+
+Ask:
+
+Meeting Mode:
+
+Google Meet
+Zoom
+Phone Call
+WhatsApp Call
+Office Visit
+
+Save booking and send confirmation.
+
+Step 5 – Contact Options
+
+Show quick buttons:
+
+📧 Email Us
+
+📞 Call Now
+
+💬 WhatsApp
+
+📅 Book Meeting
+
+🌍 Visit Website
+
+Step 6 – AI Knowledge Base
+
+The AI should answer questions about:
+
+Company
+Services
+Pricing (if available)
+Portfolio
+Business Hours
+Process
+Timeline
+Technology Stack
+Support
+Frequently Asked Questions
+
+If the AI doesn't know the answer:
+
+"I don't have that information yet. Would you like me to connect you with our team?"
+
+Step 7 – Lead Generation
+
+Before ending the chat:
+
+Ask:
+
+"Would you like to receive updates, offers, and new service announcements?"
+
+Buttons:
+
+Yes
+
+No
+
+Save their preference.
+
+Step 8 – Admin Dashboard
+
+Create an admin dashboard where the founders can:
+
+View all customer inquiries
+Search customers
+Filter by service
+View meeting bookings
+Export leads to Excel/CSV
+Update available meeting slots
+Mark inquiries as Pending/In Progress/Completed
+View chatbot analytics (visitors, chats, conversions, popular services)
+AI Personality
+
+The chatbot should:
+
+Be polite and professional.
+Respond instantly.
+Never sound robotic.
+Support English, Hindi, and Marathi.
+Encourage users to book a consultation.
+Recommend relevant Rajsanyog services based on user needs.
+UI Design
+Glassmorphism design
+Premium animations
+Dark/Light mode
+Floating AI assistant icon
+Typing indicator
+Emoji support
+Voice input (Web Speech API)
+Text-to-speech responses
+Mobile responsive
+Fast loading
+Integrations
+
+Integrate with:
+
+Gmail (send inquiry notifications)
+Google Calendar (meeting scheduling)
+WhatsApp click-to-chat
+Google Maps (office location)
+Google Sheets or database (store leads)
+SMTP/email service for confirmations
+
+Ensure the chatbot securely stores customer information, validates inputs, and provides a seamless multilingual experience.
